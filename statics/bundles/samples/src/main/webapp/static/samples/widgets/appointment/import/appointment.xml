@@ -1,0 +1,25 @@
+<catalog>
+    <widget>
+        <name>appointment</name>
+        <contextItemName>[BBHOST]</contextItemName>
+		<extendedItemName>widget-launchpad-base</extendedItemName>
+        <properties>
+            <property label="Title" name="title" viewHint="text-input,admin">
+                <value type="string">Appointment Widget</value>
+            </property>
+            <property name="src" viewHint="text-input,admin">
+                <value type="string">$(contextRoot)/static/samples/widgets/appointment/index.html</value>
+            </property>
+           
+            <property name="thumbnailUrl" viewHint="text-input,admin">
+                <value type="string">$(contextRoot)/static/samples/widgets/appointment/icon.png</value>
+            </property>
+            <!--Custom property used in the blank chrome-->
+         
+        </properties>
+        <tags>
+            <tag type="regular">argenta</tag>
+            <tag type="section">appointment</tag>
+        </tags>
+    </widget>
+</catalog>
